@@ -1,0 +1,37 @@
+.AddItemForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: .5px .5px 2px gray; 
+    margin-top: 10px;
+    padding: 10px 30px;
+    width: 200px;
+}
+
+.AddItemForm__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.AddItemForm label {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 5px;
+
+}
+
+.AddItemForm__buttons {
+    margin-top: 20px;
+}
+
+.AddItemForm button {
+    margin-left: 10px;
+}
+
+.AddItemForm a button {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+

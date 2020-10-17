@@ -1,0 +1,11 @@
+.ItemList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.ItemList a {
+    align-self: center;
+    margin-top: 15px;
+}
